@@ -33,7 +33,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
             "image": "https://azoneprojects.com/assets/img/Azok.png",
             "description": service.metaDesc,
             "telephone": "+971556230065",
-            "email": "mohdjishin666@gmail.com",
+            "email": "projects.azone@gmail.com",
             "address": {
               "@type": "PostalAddress",
               "streetAddress": "SPC, Al Zahia Area, Sheikh Mohammed Bin Zayed Rd",

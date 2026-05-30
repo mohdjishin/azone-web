@@ -19,7 +19,7 @@ function App() {
     formBody.append('message', formData.message);
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbyn7vDIzc4UFkw_Q8WiIt86aFL4dxt2CKfosW0EKPdRUYyW-eMKa0kNvtJ_onVx87jAXQ/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbzdyIYLgoyi4MPXrqXS6C7zEWebqg9gR4hJj2ORH3BpDOt0cpEpaghNjBZuQWAo06nN/exec', {
         method: 'POST',
         body: formBody,
         mode: 'no-cors'

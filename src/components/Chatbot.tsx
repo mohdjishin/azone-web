@@ -135,7 +135,7 @@ const Chatbot: React.FC = () => {
     formBody.append('message', `The user requested a callback. Phone number: ${submittedNumber}`);
 
     try {
-      await fetch('https://script.google.com/macros/s/AKfycbyn7vDIzc4UFkw_Q8WiIt86aFL4dxt2CKfosW0EKPdRUYyW-eMKa0kNvtJ_onVx87jAXQ/exec', {
+      await fetch('https://script.google.com/macros/s/AKfycbzdyIYLgoyi4MPXrqXS6C7zEWebqg9gR4hJj2ORH3BpDOt0cpEpaghNjBZuQWAo06nN/exec', {
         method: 'POST',
         body: formBody,
         mode: 'no-cors'
@@ -235,7 +235,7 @@ const Chatbot: React.FC = () => {
                     WhatsApp Us
                   </a>
                   <a
-                    href="mailto:mohdjishin666@gmail.com"
+                    href="mailto:projects.azone@gmail.com"
                     className="bg-secondary text-on-secondary p-sm rounded-xl text-center font-medium shadow-md flex items-center justify-center gap-xs hover:bg-primary transition-all transform hover:-translate-y-0.5"
                   >
                     <span className="material-symbols-outlined text-lg">mail</span>

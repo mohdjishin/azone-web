@@ -6,9 +6,9 @@ This document contains all the configuration details, endpoints, and contact inf
 The contact form does not use a traditional backend server or an email API like SendGrid. It processes form submissions by posting data to a **Google Apps Script** endpoint, which then uses your Google Workspace/Gmail to send the email.
 
 *   **Google Apps Script POST URL (Endpoint / "API Key"):**
-    `https://script.google.com/macros/s/AKfycbyn7vDIzc4UFkw_Q8WiIt86aFL4dxt2CKfosW0EKPdRUYyW-eMKa0kNvtJ_onVx87jAXQ/exec`
+    `https://script.google.com/macros/s/AKfycbzdyIYLgoyi4MPXrqXS6C7zEWebqg9gR4hJj2ORH3BpDOt0cpEpaghNjBZuQWAo06nN/exec`
     *(Note: The `AKfycbx...` string acts as the Deployment ID that authorizes the script execution).*
-*   **Target Email Address:** `mohdjishin666@gmail.com`
+*   **Target Email Address:** `projects.azone@gmail.com`
 *   **WhatsApp Fallback Number:** `971556230065`
 *   **Data Fields Expected by Script:**
     *   `name`
@@ -19,7 +19,7 @@ The contact form does not use a traditional backend server or an email API like 
 ## 2. Chatbot Setup
 The chatbot is entirely frontend-driven. It **does not** use an AI service API (e.g., OpenAI, Claude). All interactions are based on a hardcoded, rule-based flow defined in the React component.
 
-*   **Target Email Address:** `mohdjishin666@gmail.com`
+*   **Target Email Address:** `projects.azone@gmail.com`
 *   **WhatsApp Agent Number:** `971556230065`
 *   **Predefined Services Flow:**
     *   Web & Software
@@ -32,6 +32,6 @@ The chatbot is entirely frontend-driven. It **does not** use an AI service API (
 ## Summary of External Credentials
 If you are migrating or updating the project, these are the three core pieces of contact configuration to update:
 
-1.  **Apps Script ID:** `AKfycbyn7vDIzc4UFkw_Q8WiIt86aFL4dxt2CKfosW0EKPdRUYyW-eMKa0kNvtJ_onVx87jAXQ`
-2.  **Primary Email:** `mohdjishin666@gmail.com`
+1.  **Apps Script ID:** `AKfycbzdyIYLgoyi4MPXrqXS6C7zEWebqg9gR4hJj2ORH3BpDOt0cpEpaghNjBZuQWAo06nN`
+2.  **Primary Email:** `projects.azone@gmail.com`
 3.  **Primary WhatsApp:** `+971 55 623 0065`
