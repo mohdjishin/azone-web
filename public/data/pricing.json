@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "title": "Assignment Help Pricing UAE – Transparent Rates in AED | Azone Projects",
+    "description": "View Azone Projects' clear assignment help pricing in UAE Dirhams (AED). Affordable rates for essays, dissertations, thesis, capstone & more in Dubai & Sharjah.",
+    "h1": "Assignment Help Pricing in UAE – Rates in AED",
+    "subtitle": "Transparent, competitive pricing tailored for students in Dubai, Sharjah, and Abu Dhabi. No hidden fees.",
+    "disclaimer": "* Prices are in AED and may vary based on deadline, complexity, and subject.",
+    "whatsappText": "Hi, I would like to get an instant quote for my assignment",
+    "ctaLabel": "Get an Instant Quote on WhatsApp"
+  },
+  "tiers": [
+    {
+      "level": "Undergraduate",
+      "service": "Essay / Assignment",
+      "price": "AED 30/page"
+    },
+    {
+      "level": "Undergraduate",
+      "service": "Case Study",
+      "price": "AED 30/page"
+    },
+    {
+      "level": "Master's",
+      "service": "Thesis / Dissertation",
+      "price": "AED 40/page"
+    },
+    {
+      "level": "Master's",
+      "service": "MBA Assignment",
+      "price": "AED 35/page"
+    },
+    {
+      "level": "PhD",
+      "service": "Research Proposal",
+      "price": "AED 45/page"
+    },
+    {
+      "level": "Any level",
+      "service": "Capstone / Graduation Project",
+      "price": "AED 800+"
+    },
+    {
+      "level": "Any level",
+      "service": "Proofreading & Editing",
+      "price": "AED 15/page"
+    },
+    {
+      "level": "Any level",
+      "service": "CV Writing",
+      "price": "AED 150"
+    }
+  ],
+  "freeFeatures": [
+    {
+      "label": "Free Turnitin Report",
+      "icon": "verified"
+    },
+    {
+      "label": "Free Revision (2x)",
+      "icon": "autorenew"
+    },
+    {
+      "label": "Free Bibliography",
+      "icon": "menu_book"
+    },
+    {
+      "label": "Free Title Page",
+      "icon": "article"
+    }
+  ]
+}
