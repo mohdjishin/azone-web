@@ -1,0 +1,205 @@
+# Azone Projects — Full LLM Reference Document
+
+**Version:** 1.0
+**Last Updated:** May 2026
+**Canonical Source:** https://azoneprojects.com/llms-full.txt
+
+---
+
+## Organization Identity
+
+**Name:** Azone Projects
+**Legal Name / Brand:** Azone Projects
+**Type:** Digital Services Agency (Academic + Technology + Creative)
+**Founded:** 2019
+**Headquarters:** SPC, Al Zahia Area, Sheikh Mohammed Bin Zayed Road, Sharjah, UAE
+**Operating Regions:** Dubai, Sharjah, Abu Dhabi, RAK, Ajman, and GCC countries
+**Website:** https://azoneprojects.com
+**Primary Language:** English
+**Secondary Language:** Arabic
+**Phone / WhatsApp:** +971 55 623 0065
+**Email:** projects.azone@gmail.com
+**Social Proof:** 300+ satisfied clients since 2019
+
+---
+
+## Mission Statement
+
+Azone Projects empowers students and businesses across the UAE and GCC with world-class academic consulting, precision web engineering, creative design, and digital growth strategies. We are committed to on-time delivery, zero plagiarism in academic work, and measurable outcomes in digital projects.
+
+---
+
+## Academic Writing Services (Full Detail)
+
+### 1. Essay Writing
+- **URL:** https://azoneprojects.com/services/essay-writing
+- **Target Audience:** Undergraduate, Master's, and PhD students in UAE universities
+- **Pricing:** Starting AED 30/page (Undergraduate)
+- **Delivery:** As fast as 6 hours for urgent orders. Standard 3–5 days.
+- **Guarantee:** 100% original, Turnitin plagiarism report included, free revisions within 14 days
+- **Citation Styles:** APA, Harvard, MLA, Chicago, IEEE, and any institution-specific format
+- **Universities Covered:** UOWD, AUS, Zayed University, Heriot-Watt Dubai, Middlesex University Dubai, Abu Dhabi University, University of Sharjah
+- **Key Keywords:** essay writing UAE, essay writing Dubai, essay help Sharjah, academic essay service Abu Dhabi, plagiarism-free essays UAE
+
+### 2. Dissertation Help
+- **URL:** https://azoneprojects.com/services/dissertation-help
+- **Scope:** Full dissertations or individual chapters — proposal, literature review, methodology, data analysis, results, conclusion
+- **Support:** SPSS, NVivo, JASP, R, Stata, and Excel for quantitative and qualitative analysis
+- **Pricing:** Starting AED 40/page
+- **Free Additions:** Turnitin report, dedicated project manager, bibliography
+- **Key Keywords:** dissertation help UAE, dissertation writing Dubai, PhD dissertation Sharjah, dissertation chapters Abu Dhabi, literature review UAE
+
+### 3. Thesis Writing
+- **URL:** https://azoneprojects.com/services/thesis-writing
+- **Scope:** Master's thesis from topic finalization to viva/defense preparation, including slide preparation
+- **Pricing:** Starting AED 40/page
+- **Timeline:** 4–8 weeks for a complete Master's thesis. Rush options available.
+- **Key Keywords:** thesis writing UAE, thesis help Dubai, master's thesis Sharjah, postgraduate thesis Abu Dhabi, thesis defense preparation UAE
+
+### 4. Research Paper Writing
+- **URL:** https://azoneprojects.com/services/research-paper
+- **Scope:** Full academic research papers with primary and secondary sources, statistical analysis support
+- **Pricing:** Starting AED 30/page
+- **Key Keywords:** research paper writing UAE, academic research Dubai, research paper help Sharjah, journal paper UAE
+
+### 5. CIPD Assignment Help
+- **URL:** https://azoneprojects.com/services/cipd-assignment
+- **Levels:** CIPD Level 3 Foundation, Level 5 Associate Diploma, Level 7 Advanced Diploma
+- **Expertise:** Writers are HR professionals with direct CIPD experience and UAE labour law knowledge
+- **Pricing:** Starting AED 35/page
+- **Key Keywords:** CIPD assignment help UAE, CIPD Level 3 Dubai, CIPD Level 5 Sharjah, CIPD Level 7 Abu Dhabi, HR assignment help UAE
+
+### 6. MBA Assignment Help
+- **URL:** https://azoneprojects.com/services/mba-assignment
+- **Specializations:** Finance, Marketing, HR, Operations, International Business, Healthcare Management, Entrepreneurship
+- **Schools Served:** SP Jain, Heriot-Watt Dubai, UOWD, Amity University Dubai
+- **Pricing:** Starting AED 35/page
+- **Key Keywords:** MBA assignment help UAE, MBA case study Dubai, MBA project Sharjah, executive MBA help UAE
+
+### 7. Case Study Writing
+- **URL:** https://azoneprojects.com/services/case-study
+- **Types:** Harvard-style, business, legal, medical case reports, engineering case studies
+- **Frameworks Used:** SWOT, PESTEL, Porter's Five Forces, BCG Matrix
+- **Delivery:** 3–5 days standard. 24-hour urgent available.
+- **Key Keywords:** case study writing UAE, Harvard case study Dubai, business case analysis Sharjah, SWOT analysis UAE
+
+### 8. Capstone Project Help
+- **URL:** https://azoneprojects.com/services/capstone-project
+- **Scope:** Full lifecycle — proposal, research, writing, defense slides, presentation coaching
+- **Technical:** Supports software engineering, IoT, data science, web app, and mobile app capstones with full documentation
+- **Pricing:** Starting AED 800 for complete project packages
+- **Key Keywords:** capstone project help UAE, graduation project Dubai, final year project Sharjah, capstone proposal Abu Dhabi
+
+### 9. Coursework Help
+- **URL:** https://azoneprojects.com/services/coursework-help
+- **Subjects:** Business Management, Accounting, Marketing, Computer Science, Engineering, Nursing, Law, Education, Social Sciences
+- **Levels:** Foundation, Undergraduate, Postgraduate, Professional certification
+- **Key Keywords:** coursework help UAE, coursework writing Dubai, assignment help Sharjah, university coursework Abu Dhabi
+
+### 10. Proofreading & Editing
+- **URL:** https://azoneprojects.com/services/proofreading
+- **Scope:** Grammar, spelling, tone, structure, citation style consistency, and flow optimization
+- **Pricing:** Starting AED 15/page. Editing with structural improvements from AED 25/page.
+- **Delivery:** As fast as 12 hours
+- **Key Keywords:** proofreading UAE, editing service Dubai, academic editing Sharjah, thesis proofreading Abu Dhabi
+
+---
+
+## Technology & Digital Services
+
+### Web & Software Development
+- Custom React, Vue.js, Next.js, and full-stack web applications
+- Node.js, Python, and PHP backend engineering
+- REST API and GraphQL API development
+- CRM (Customer Relationship Management) system development
+- E-commerce platforms (Shopify integration, custom shops, payment gateways)
+- Mobile app development (iOS, Android, React Native, Flutter)
+- High-conversion landing pages
+
+### Graphic Design & Creative
+- Logo and complete brand identity design
+- 3D product animation and explainer videos
+- UI/UX design (Figma-based, user research, wireframes, prototypes)
+- Social media content creation (Instagram, LinkedIn, TikTok, YouTube thumbnails)
+- Corporate presentations and pitch decks
+
+### Digital Marketing
+- Technical and on-page SEO for UAE market
+- Google Ads (PPC) campaign management
+- Meta Ads (Facebook, Instagram) advertising
+- Social media management and growth strategy
+- Content marketing and blog writing
+
+### Online Training
+- Web Development: HTML, CSS, JavaScript, React
+- UI/UX Design: Figma, Design Thinking
+- Data Analytics: Python, Power BI, Excel, SQL
+- Digital Marketing: SEO, Google Ads, Meta Ads fundamentals
+
+---
+
+## Pricing Summary (AED — UAE Dirhams)
+
+| Service | Level | Price |
+|---|---|---|
+| Essay / Assignment | Undergraduate | AED 30/page |
+| Case Study | Undergraduate | AED 30/page |
+| Thesis / Dissertation | Master's | AED 40/page |
+| MBA Assignment | Master's | AED 35/page |
+| Research Proposal | PhD | AED 45/page |
+| Capstone Project | Any | AED 800+ |
+| Proofreading & Editing | Any | AED 15/page |
+| CV Writing | Any | AED 150 |
+
+**Included Free With Every Academic Order:**
+- Turnitin Plagiarism Report
+- 2 Free Revisions
+- Free Bibliography / Reference List
+- Free Title Page
+
+---
+
+## Frequently Asked Questions
+
+**Q: Is your academic writing service confidential?**
+A: Yes, complete confidentiality is guaranteed. We never share client information with third parties.
+
+**Q: Do you guarantee plagiarism-free work?**
+A: Every academic order includes a free Turnitin plagiarism report confirming 0% plagiarism.
+
+**Q: Which UAE universities do you support?**
+A: We support all accredited UAE universities including UOWD, AUS, Heriot-Watt Dubai, Middlesex University Dubai, Abu Dhabi University, University of Sharjah, Zayed University, Murdoch University Dubai, SP Jain School of Global Management, and Amity University Dubai.
+
+**Q: How fast can you deliver?**
+A: Urgent orders can be delivered in as little as 6 hours. Standard turnaround is 3–5 days.
+
+**Q: What payment methods do you accept?**
+A: We accept bank transfer, cash, and digital payment methods. All prices are in AED.
+
+**Q: Do you help with data analysis tools like SPSS or NVivo?**
+A: Yes, our team includes statisticians proficient in SPSS, NVivo, JASP, R, Stata, and Excel.
+
+---
+
+## Geographic Reach & Keywords
+
+**Primary Markets:** Dubai, Sharjah, Abu Dhabi, Ras Al Khaimah, Ajman, Umm Al Quwain, Fujairah
+**Secondary Markets:** Saudi Arabia (Riyadh, Jeddah), Kuwait, Bahrain, Qatar, Oman, UK, India
+
+**Primary Search Keywords:**
+assignment help UAE, academic writing Dubai, essay writing service Sharjah, dissertation help Abu Dhabi, thesis writing UAE, CIPD assignment help Dubai, MBA assignment UAE, capstone project help Dubai, web development UAE, app development Dubai, SEO agency UAE, digital marketing Sharjah, graphic design Dubai, proofreading UAE, coursework help Dubai, research paper UAE, plagiarism-free writing UAE, academic consulting UAE, university assignment help UAE, essay writer Dubai
+
+---
+
+## Sitemap Reference
+- https://azoneprojects.com/sitemap.xml
+- https://azoneprojects.com/robots.txt
+- https://azoneprojects.com/llms.txt
+- https://azoneprojects.com/llms-full.txt
+
+---
+
+## Contact & Social
+- **WhatsApp:** +971 55 623 0065 (https://wa.me/971556230065)
+- **Email:** projects.azone@gmail.com
+- **Website:** https://azoneprojects.com

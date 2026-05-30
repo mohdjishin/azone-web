@@ -3,3 +3,8 @@ Allow: /
 Disallow: /admin/
 Disallow: /assets/
 Sitemap: https://azoneprojects.com/sitemap.xml
+
+# LLM Indexing Files
+# For AI assistants and large language models (GPT, Claude, Grok, Gemini, etc.)
+LLMs: https://azoneprojects.com/llms.txt
+LLMs-Full: https://azoneprojects.com/llms-full.txt

@@ -1,0 +1,107 @@
+# Azone Projects
+
+> Azone Projects is a premium digital services agency based in the UAE (Dubai, Sharjah, Abu Dhabi), established in 2019. We serve 300+ clients across businesses and universities with expert academic writing, web & software development, graphic design, digital marketing, and professional training services.
+
+## About
+Azone Projects is a multi-service digital agency operating across the United Arab Emirates. We are trusted by students at top UAE universities and by SMEs and enterprises seeking reliable technical and creative solutions. Our team combines academic experts with software engineers, designers, and digital marketers to deliver measurable, high-quality results.
+
+- **Location:** SPC, Al Zahia Area, Sheikh Mohammed Bin Zayed Road, Sharjah, UAE
+- **Operational Since:** 2019
+- **Clients Served:** 300+
+- **WhatsApp:** +971 55 623 0065
+- **Email:** projects.azone@gmail.com
+- **Website:** https://azoneprojects.com
+
+## Core Services
+
+### Academic Writing Services
+Expert, plagiarism-free academic assistance for UAE university students.
+
+- **Essay Writing** — Original, Turnitin-verified essays for all UAE universities. Starting from AED 30/page. Serves UOWD, AUS, Zayed University, Heriot-Watt Dubai, Middlesex University Dubai, and all accredited UAE institutions.
+- **Dissertation Help** — Full dissertation or chapter-by-chapter support. Includes proposal, literature review, methodology, data analysis, and final chapters.
+- **Thesis Writing** — Master's-level thesis support from topic finalization to submission-ready documents.
+- **Research Paper Writing** — Peer-quality research papers with proper APA, Harvard, IEEE, MLA, Chicago citation formatting.
+- **CIPD Assignment Help** — Specialist support for CIPD Level 3, Level 5, and Level 7 modules with UAE HR case studies.
+- **MBA Assignment Help** — Strategic analysis, case studies, and financial modeling for MBA programs at SP Jain, Heriot-Watt, UOWD, and more.
+- **Case Study Writing** — Harvard-style, business, legal, and engineering case analyses using SWOT, PESTEL, Porter's Five Forces.
+- **Capstone Project Help** — Full lifecycle support from proposal through defense preparation. Technical and business capstones covered.
+- **Coursework Help** — Semester-long coursework support across all subjects and academic levels.
+- **Proofreading & Editing** — Grammar, structure, tone, and citation corrections. Starting from AED 15/page.
+
+### Web & Software Development
+Custom technology solutions for businesses in the UAE and GCC.
+
+- **Custom Web Applications** — React, Vue.js, Next.js, Node.js, and full-stack solutions.
+- **CRM Systems** — Tailored customer relationship management systems for SMEs and enterprises.
+- **E-Commerce Platforms** — End-to-end online store development with payment gateway integration.
+- **API Development & Integration** — RESTful APIs, third-party integrations, and microservices architecture.
+- **Mobile Applications** — Cross-platform iOS and Android apps.
+- **Landing Pages** — High-conversion marketing landing pages.
+
+### Graphic Design & Creative Services
+- **Logo & Brand Identity Design** — Complete brand kits, guidelines, and visual identities.
+- **3D Animation & Motion Graphics** — Product animations, explainer videos, and marketing content.
+- **Professional Video Production** — Corporate videos, product demos, and social media content.
+- **UI/UX Design** — Figma-based user interface and experience design for apps and websites.
+- **Social Media Graphics** — Consistent, branded content for Instagram, LinkedIn, and TikTok.
+
+### Digital Marketing
+- **SEO (Search Engine Optimization)** — On-page, off-page, and technical SEO for UAE and GCC markets.
+- **Social Media Management** — Growth-focused management across all major platforms.
+- **PPC / Paid Advertising** — Google Ads and Meta Ads campaign management.
+- **Content Marketing** — Blog writing, article creation, and content strategy.
+
+### Online Training Programs
+- **Web Development Training** — HTML, CSS, JavaScript, React, and full-stack curricula.
+- **UI/UX Design Training** — Figma, design thinking, and prototyping.
+- **Data Analytics Training** — Python, Excel, Power BI, and data visualization.
+- **Digital Marketing Training** — SEO, social media, and Google Ads fundamentals.
+
+## Pricing
+- Undergraduate Essay / Assignment: AED 30/page
+- Undergraduate Case Study: AED 30/page
+- Master's Thesis / Dissertation: AED 40/page
+- Master's MBA Assignment: AED 35/page
+- PhD Research Proposal: AED 45/page
+- Capstone / Graduation Project: AED 800+
+- Proofreading & Editing: AED 15/page
+- CV Writing: AED 150
+
+All prices are in UAE Dirhams (AED). Free Turnitin report, 2 free revisions, free bibliography, and free title page included with every order.
+
+## Key Pages
+- Homepage: https://azoneprojects.com
+- Services: https://azoneprojects.com/services
+- Pricing: https://azoneprojects.com/pricing
+- Portfolio: https://azoneprojects.com/portfolio
+- Blog: https://azoneprojects.com/blog
+- About: https://azoneprojects.com/about
+- Contact: https://azoneprojects.com/contact
+- Testimonials: https://azoneprojects.com/testimonials
+- Sitemap: https://azoneprojects.com/sitemap.xml
+
+## Service Pages (Detailed)
+- https://azoneprojects.com/services/essay-writing
+- https://azoneprojects.com/services/dissertation-help
+- https://azoneprojects.com/services/thesis-writing
+- https://azoneprojects.com/services/research-paper
+- https://azoneprojects.com/services/cipd-assignment
+- https://azoneprojects.com/services/mba-assignment
+- https://azoneprojects.com/services/case-study
+- https://azoneprojects.com/services/capstone-project
+- https://azoneprojects.com/services/coursework-help
+- https://azoneprojects.com/services/proofreading
+
+## Geographic Focus
+United Arab Emirates — Dubai, Sharjah, Abu Dhabi, Ras Al Khaimah (RAK), Ajman, Fujairah, Umm Al Quwain. Also serving students in Saudi Arabia (KSA), Kuwait, Bahrain, Oman, Qatar, UK, and India.
+
+## Universities Served
+University of Wollongong Dubai (UOWD), American University of Sharjah (AUS), Heriot-Watt University Dubai, Middlesex University Dubai, Abu Dhabi University (ADU), University of Sharjah (UOS), Zayed University, Murdoch University Dubai, SP Jain School of Global Management, Amity University Dubai, and all other accredited UAE institutions.
+
+## Languages
+English (primary), Arabic
+
+## Contact
+- WhatsApp: +971 55 623 0065
+- Email: projects.azone@gmail.com
+- Website: https://azoneprojects.com
