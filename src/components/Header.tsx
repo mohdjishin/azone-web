@@ -15,8 +15,8 @@ export default function Header() {
     };
   }, [mobileOpen]);
 
+  // Home is intentionally excluded — the logo already links to /
   const links = [
-    { label: 'Home', href: '/', active: true },
     { label: 'Services', href: '/#services' },
     { label: 'Portfolio', href: '/#portfolio' },
     { label: 'Pricing', href: '/pricing' },
@@ -28,8 +28,9 @@ export default function Header() {
 
   return (
     <header className="w-full sticky top-0 z-50 bg-surface/90 backdrop-blur-md border-b border-surface-dim">
-      <nav className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-md max-w-[1440px] mx-auto">
-        <Link className="flex items-center gap-sm group" to="/">
+      <nav className="flex justify-between items-center w-full px-margin-mobile md:px-margin-desktop py-md max-w-[1440px] mx-auto gap-md">
+        {/* Logo — flex-shrink-0 prevents it from being squeezed */}
+        <Link className="flex items-center gap-sm group flex-shrink-0" to="/">
             <img
               alt="Azone Projects Logo"
               className="h-10 object-contain"
@@ -42,15 +43,17 @@ export default function Header() {
         </Link>
 
         {/* Desktop Nav — only shown md+ */}
-        <div className="hidden md:flex items-center gap-xs lg:gap-md xl:gap-lg">
+        <div className="hidden md:flex items-center gap-xs lg:gap-sm xl:gap-md flex-1 justify-center min-w-0">
           {links.map((link) => (
             <Link
               key={link.label}
-              className={`nav-link whitespace-nowrap text-sm lg:text-body-md px-1 ${
-                link.label === 'Pricing' || link.label === 'Testimonials'
+              className={`nav-link whitespace-nowrap text-sm px-1 ${
+                link.label === 'Pricing' || link.label === 'Testimonials' || link.label === 'About'
                   ? 'hidden lg:block'
+                  : link.label === 'Contact'
+                  ? 'hidden xl:block'
                   : ''
-              } ${link.active ? 'active text-primary font-medium' : 'text-on-surface-variant hover:text-primary'} transition-colors`}
+              } text-on-surface-variant hover:text-primary transition-colors`}
               to={link.href}
             >
               {link.label}
@@ -58,12 +61,12 @@ export default function Header() {
           ))}
         </div>
 
-        <div className="flex items-center gap-md">
+        <div className="flex items-center gap-md flex-shrink-0">
           <a 
             href="https://wa.me/971556230065?text=Hi, I would like to consult with Azone Projects"
             target="_blank"
             rel="noopener noreferrer"
-            className="hidden lg:flex items-center gap-2 bg-primary text-on-primary px-lg py-sm rounded hover:bg-secondary transition-all font-label-md text-label-md uppercase tracking-wider whitespace-nowrap"
+            className="hidden md:flex items-center gap-2 bg-primary text-on-primary px-lg py-sm rounded hover:bg-secondary transition-all font-label-md text-label-md uppercase tracking-wider whitespace-nowrap text-sm"
           >
             Consult Now
           </a>
@@ -87,7 +90,7 @@ export default function Header() {
           {links.map((link) => (
             <Link
               key={link.label}
-              className={`block font-body-md text-body-md py-sm transition-colors ${link.active ? 'text-primary font-medium' : 'text-on-surface-variant hover:text-primary'}`}
+              className="block font-body-md text-body-md py-sm transition-colors text-on-surface-variant hover:text-primary"
               to={link.href}
               onClick={() => setMobileOpen(false)}
             >
