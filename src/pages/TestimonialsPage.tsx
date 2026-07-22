@@ -146,7 +146,7 @@ export default function TestimonialsPage() {
               We value your feedback. Share your experience with the Azone Projects team.
             </p>
             <a
-              href="https://wa.me/971556230065?text=Hi, I would like to leave a review for Azone Projects"
+              href="https://wa.me/971500000000?text=Hi, I would like to leave a review for Azone Projects"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-2xl py-lg rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md"

@@ -63,7 +63,7 @@ export default function Header() {
 
         <div className="flex items-center gap-md flex-shrink-0">
           <a 
-            href="https://wa.me/971556230065?text=Hi, I would like to consult with Azone Projects"
+            href="https://wa.me/971500000000?text=Hi, I would like to consult with Azone Projects"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:flex items-center gap-2 bg-primary text-on-primary px-lg py-sm rounded hover:bg-secondary transition-all font-label-md text-label-md uppercase tracking-wider whitespace-nowrap text-sm"
@@ -98,7 +98,7 @@ export default function Header() {
             </Link>
           ))}
           <a 
-            href="https://wa.me/971556230065?text=Hi, I would like to consult with Azone Projects"
+            href="https://wa.me/971500000000?text=Hi, I would like to consult with Azone Projects"
             target="_blank"
             rel="noopener noreferrer"
             className="sm:hidden flex w-full justify-center items-center gap-2 bg-primary text-on-primary px-lg py-sm rounded font-label-md text-label-md uppercase tracking-wider mt-md active:bg-secondary"

@@ -17,7 +17,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'essay-writing',
     title: 'Essay Writing',
     metaTitle: 'Essay Writing Service Dubai & UAE | Azone Projects',
-    metaDesc: 'Professional essay writing service in Dubai, Sharjah & Abu Dhabi. Original, plagiarism-free essays delivered on time. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Professional essay writing service in Dubai, Sharjah & Abu Dhabi. Original, plagiarism-free essays delivered on time. WhatsApp: +971 50 000 0000',
     h1: 'Essay Writing Service in UAE',
     intro: 'Struggling with tight deadlines and demanding essay requirements at your university in Dubai, Sharjah, or Abu Dhabi? Azone Projects delivers meticulously researched, 100% original essays across every discipline — from business and law to engineering and humanities. Our expert writers hold advanced degrees from top UAE and international institutions, ensuring your essay meets the highest academic standards.',
     benefits: [
@@ -46,7 +46,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'dissertation-help',
     title: 'Dissertation Help',
     metaTitle: 'Dissertation Help Dubai, Sharjah & Abu Dhabi | Azone Projects',
-    metaDesc: 'Expert dissertation help for UAE students. Full chapters or complete dissertations. Plagiarism-free, on-time delivery. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert dissertation help for UAE students. Full chapters or complete dissertations. Plagiarism-free, on-time delivery. WhatsApp: +971 50 000 0000',
     h1: 'Dissertation Help in UAE',
     intro: 'Your dissertation is the most important academic project you will undertake at any UAE university. Whether you are studying in Dubai, Sharjah, or Abu Dhabi, Azone Projects provides end-to-end dissertation support — from proposal development and literature review to methodology design, data analysis, and final chapter writing. Our academic consultants understand UAE university expectations and deliver work that meets the rigorous standards of institutions across the Emirates.',
     benefits: [
@@ -75,7 +75,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'thesis-writing',
     title: 'Thesis Writing',
     metaTitle: 'Thesis Writing Service UAE – Expert Support | Azone Projects',
-    metaDesc: 'Professional thesis writing support in Dubai, Sharjah & Abu Dhabi. Research-backed, plagiarism-free. Get started on WhatsApp: +971 55 623 0065',
+    metaDesc: 'Professional thesis writing support in Dubai, Sharjah & Abu Dhabi. Research-backed, plagiarism-free. Get started on WhatsApp: +971 50 000 0000',
     h1: 'Thesis Writing Service UAE',
     intro: 'A well-crafted thesis demands months of rigorous research, structured argumentation, and flawless academic writing. Azone Projects supports students across Dubai, Sharjah, and Abu Dhabi with expert thesis writing services that transform complex research questions into compelling, publication-quality academic documents. Whether your thesis is for a Master\'s programme or a specialized postgraduate diploma, our academic team ensures every page reflects scholarly excellence.',
     benefits: [
@@ -104,7 +104,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'research-paper',
     title: 'Research Paper Writing',
     metaTitle: 'Research Paper Writing Help Dubai & UAE | Azone Projects',
-    metaDesc: 'Expert research paper writing in Dubai, Sharjah & Abu Dhabi. Original academic papers with proper citations. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert research paper writing in Dubai, Sharjah & Abu Dhabi. Original academic papers with proper citations. WhatsApp: +971 50 000 0000',
     h1: 'Research Paper Writing UAE',
     intro: 'Research papers require a deep understanding of academic methodology, critical analysis, and proper scholarly citation. At Azone Projects, we help students across Dubai, Sharjah, and Abu Dhabi produce research papers that demonstrate genuine intellectual engagement. Our writers are published researchers who know how to develop a strong thesis statement, support arguments with credible sources, and present findings in a way that impresses supervisors at top UAE universities.',
     benefits: [
@@ -133,7 +133,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'cipd-assignment',
     title: 'CIPD Assignment Help',
     metaTitle: 'CIPD Assignment Help Dubai, Sharjah | Azone Projects',
-    metaDesc: 'Expert CIPD Level 3, 5 & 7 assignment help in UAE. HR professionals trusted by students in Dubai & Sharjah. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert CIPD Level 3, 5 & 7 assignment help in UAE. HR professionals trusted by students in Dubai & Sharjah. WhatsApp: +971 50 000 0000',
     h1: 'CIPD Assignment Help UAE',
     intro: 'CIPD qualifications are among the most sought-after HR credentials in the UAE, and the assignments can be incredibly demanding. Whether you are pursuing CIPD Level 3, Level 5, or Level 7, Azone Projects provides expert academic support tailored to CIPD\'s unique assessment criteria. Our writers are HR professionals with direct CIPD experience, based in and serving students across Dubai, Sharjah, and Abu Dhabi.',
     benefits: [
@@ -162,7 +162,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'mba-assignment',
     title: 'MBA Assignment Help',
     metaTitle: 'MBA Assignment Help Dubai & UAE | Azone Projects',
-    metaDesc: 'Expert MBA assignment help in Dubai, Sharjah & Abu Dhabi. Case studies, reports & projects. Plagiarism-free. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert MBA assignment help in Dubai, Sharjah & Abu Dhabi. Case studies, reports & projects. Plagiarism-free. WhatsApp: +971 50 000 0000',
     h1: 'MBA Assignment Help UAE',
     intro: 'MBA programs in Dubai, Sharjah, and Abu Dhabi are rigorous — demanding strategic analysis, financial modeling, and real-world business case studies. Azone Projects supports MBA students with premium-quality assignment help that demonstrates executive-level thinking. Our team includes MBA graduates and business consultants who understand the expectations of top UAE business schools.',
     benefits: [
@@ -191,7 +191,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'case-study',
     title: 'Case Study Writing',
     metaTitle: 'Case Study Writing Help Dubai & Sharjah | Azone Projects',
-    metaDesc: 'Expert case study writing service in Dubai, Sharjah & Abu Dhabi. In-depth analysis with real-world examples. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert case study writing service in Dubai, Sharjah & Abu Dhabi. In-depth analysis with real-world examples. WhatsApp: +971 50 000 0000',
     h1: 'Case Study Writing Service UAE',
     intro: 'Case studies are a cornerstone of business, law, and healthcare education in UAE universities. They require analytical thinking, structured problem-solving, and the ability to apply theoretical frameworks to real-world scenarios. Azone Projects helps students in Dubai, Sharjah, and Abu Dhabi produce compelling case study analyses that demonstrate critical thinking and practical understanding.',
     benefits: [
@@ -220,7 +220,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'capstone-project',
     title: 'Capstone Project Help',
     metaTitle: 'Capstone & Graduation Project Help UAE | Azone Projects',
-    metaDesc: 'Expert capstone and graduation project help in Dubai, Sharjah & Abu Dhabi. Full project support from proposal to presentation. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert capstone and graduation project help in Dubai, Sharjah & Abu Dhabi. Full project support from proposal to presentation. WhatsApp: +971 50 000 0000',
     h1: 'Capstone Project Help UAE',
     intro: 'Your capstone or graduation project is the culmination of your entire degree — it must showcase your knowledge, research skills, and problem-solving ability. At Azone Projects, we provide comprehensive support for capstone and graduation projects across all disciplines for students in Dubai, Sharjah, and Abu Dhabi. From initial proposal to final presentation, our experts guide you through every stage.',
     benefits: [
@@ -249,7 +249,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'coursework-help',
     title: 'Coursework Help',
     metaTitle: 'Coursework Writing Help Dubai & Abu Dhabi | Azone Projects',
-    metaDesc: 'Expert coursework help for UAE students in Dubai, Sharjah & Abu Dhabi. All subjects covered. Plagiarism-free delivery. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Expert coursework help for UAE students in Dubai, Sharjah & Abu Dhabi. All subjects covered. Plagiarism-free delivery. WhatsApp: +971 50 000 0000',
     h1: 'Coursework Help Dubai UAE',
     intro: 'Coursework assignments pile up quickly throughout the semester, and balancing multiple modules, part-time work, and personal commitments can be overwhelming for students in Dubai, Sharjah, and Abu Dhabi. Azone Projects offers reliable coursework help across all subjects and academic levels — ensuring you stay on track with consistent, high-quality submissions that reflect genuine understanding of your course material.',
     benefits: [
@@ -278,7 +278,7 @@ export const SERVICE_PAGES: ServiceData[] = [
     slug: 'proofreading',
     title: 'Proofreading & Editing',
     metaTitle: 'Proofreading & Editing Services Dubai UAE | Azone Projects',
-    metaDesc: 'Professional proofreading and editing for academic papers in Dubai, Sharjah & Abu Dhabi. From AED 50/page. WhatsApp: +971 55 623 0065',
+    metaDesc: 'Professional proofreading and editing for academic papers in Dubai, Sharjah & Abu Dhabi. From AED 50/page. WhatsApp: +971 50 000 0000',
     h1: 'Proofreading & Editing UAE',
     intro: 'Even the strongest academic work can lose marks due to grammatical errors, awkward phrasing, or inconsistent formatting. Azone Projects offers professional proofreading and editing services for students and researchers across Dubai, Sharjah, and Abu Dhabi. Our editors refine your writing for clarity, coherence, and correctness — ensuring your paper reads at the highest academic standard before submission.',
     benefits: [

@@ -32,7 +32,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
             "logo": "https://assignmentzone.ae/assets/img/Azok.png",
             "image": "https://assignmentzone.ae/assets/img/Azok.png",
             "description": service.metaDesc,
-            "telephone": "+971556230065",
+            "telephone": "+971500000000",
             "email": "projects.azone@gmail.com",
             "address": {
               "@type": "PostalAddress",
@@ -176,7 +176,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
                     Our team in UAE is available 24/7. Get a free quote instantly.
                   </p>
                   <a
-                    href={`https://wa.me/971556230065?text=${encodeURIComponent(service.whatsappText)}`}
+                    href={`https://wa.me/971500000000?text=${encodeURIComponent(service.whatsappText)}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-center gap-sm bg-primary text-on-primary w-full py-md rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md"

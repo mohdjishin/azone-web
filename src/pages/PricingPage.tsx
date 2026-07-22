@@ -121,7 +121,7 @@ export default function PricingPage() {
 
           <div className="text-center mt-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
             <a
-              href={`https://wa.me/971556230065?text=${encodeURIComponent(data.meta.whatsappText)}`}
+              href={`https://wa.me/971500000000?text=${encodeURIComponent(data.meta.whatsappText)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-2xl py-lg rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md transform hover:-translate-y-1"

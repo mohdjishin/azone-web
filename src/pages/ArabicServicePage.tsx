@@ -63,7 +63,7 @@ export default function ArabicServicePage() {
               <div className="mt-2xl text-center">
                 <p className="font-headline-sm text-on-surface mb-md">تواصل معنا الآن للحصول على استشارة مجانية</p>
                 <a
-                  href="https://wa.me/971556230065?text=مرحباً، أحتاج إلى مساعدة في واجبي الجامعي"
+                  href="https://wa.me/971500000000?text=مرحباً، أحتاج إلى مساعدة في واجبي الجامعي"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-xl py-md rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md"

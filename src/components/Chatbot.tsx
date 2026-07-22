@@ -222,7 +222,7 @@ const Chatbot: React.FC = () => {
               {msg.isContact && (
                 <div className="flex flex-col gap-sm mt-sm w-full animate-fade-in">
                   <a
-                    href="https://wa.me/971556230065"
+                    href="https://wa.me/971500000000"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-[#25D366] text-white p-sm rounded-xl text-center font-medium shadow-md flex items-center justify-center gap-xs hover:bg-[#20bd5a] transition-all transform hover:-translate-y-0.5"

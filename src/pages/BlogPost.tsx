@@ -106,7 +106,7 @@ export default function BlogPost({ post }: { post: BlogPostData }) {
               <div className="mt-2xl pt-xl border-t border-surface-dim text-center">
                 <p className="font-headline-sm text-on-surface mb-md">Need expert academic assistance?</p>
                 <a
-                  href={`https://wa.me/971556230065?text=${encodeURIComponent(`Hi, I read your blog post on ${post.title} and need help.`)}`}
+                  href={`https://wa.me/971500000000?text=${encodeURIComponent(`Hi, I read your blog post on ${post.title} and need help.`)}`}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-xl py-md rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md"
