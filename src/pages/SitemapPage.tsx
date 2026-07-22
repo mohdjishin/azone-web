@@ -4,7 +4,7 @@ import { SERVICE_PAGES } from '../data/services';
 import { BLOG_POSTS } from '../data/blog';
 
 export default function SitemapPage() {
-  const pageUrl = 'https://azoneprojects.com/sitemap';
+  const pageUrl = 'https://assignmentzone.ae/sitemap';
 
   const sections = [
     {
@@ -49,7 +49,7 @@ export default function SitemapPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://azoneprojects.com/" },
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://assignmentzone.ae/" },
               { "@type": "ListItem", "position": 2, "name": "Sitemap", "item": pageUrl },
             ],
           })}

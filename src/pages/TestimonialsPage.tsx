@@ -17,7 +17,7 @@ const TESTIMONIALS = [
 ];
 
 export default function TestimonialsPage() {
-  const pageUrl = 'https://azoneprojects.com/testimonials';
+  const pageUrl = 'https://assignmentzone.ae/testimonials';
 
   return (
     <>
@@ -32,8 +32,8 @@ export default function TestimonialsPage() {
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Azone Projects FZC",
-            "url": "https://azoneprojects.com",
-            "image": "https://azoneprojects.com/assets/img/Azok.png",
+            "url": "https://assignmentzone.ae",
+            "image": "https://assignmentzone.ae/assets/img/Azok.png",
             "aggregateRating": {
               "@type": "AggregateRating",
               "ratingValue": "4.9",
@@ -61,7 +61,7 @@ export default function TestimonialsPage() {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://azoneprojects.com/" },
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://assignmentzone.ae/" },
               { "@type": "ListItem", "position": 2, "name": "Testimonials", "item": pageUrl }
             ]
           })}
@@ -70,7 +70,7 @@ export default function TestimonialsPage() {
 
       <main className="pt-2xl pb-3xl bg-background">
         <div className="section-container px-margin-mobile md:px-margin-desktop">
-          
+
           {/* Breadcrumbs */}
           <nav className="flex text-sm text-on-surface-variant mb-xl font-label-md">
             <Link to="/" className="hover:text-primary transition-colors">Home</Link>
@@ -88,73 +88,73 @@ export default function TestimonialsPage() {
               What Our Students Say – Azone Projects Reviews
             </h1>
             <p className="text-body-lg text-on-surface-variant leading-relaxed">
-            We pride ourselves on delivering world-class academic support and digital solutions. Here is what our clients across Dubai, Sharjah, and Abu Dhabi have to say about our services.
-          </p>
-        </div>
-
-        <div className="flex justify-center mb-2xl">
-          <div className="bg-surface border border-surface-dim p-lg rounded-full flex items-center gap-md shadow-sm">
-            <div className="flex gap-1">
-              {[...Array(5)].map((_, i) => (
-                <span key={i} className="material-symbols-outlined text-accent" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-              ))}
-            </div>
-            <span className="font-headline-sm text-on-surface">4.9/5 Average Rating</span>
-            <span className="text-on-surface-variant text-body-sm">(140+ Reviews)</span>
+              We pride ourselves on delivering world-class academic support and digital solutions. Here is what our clients across Dubai, Sharjah, and Abu Dhabi have to say about our services.
+            </p>
           </div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-xl w-full">
-          {TESTIMONIALS.map((testimonial, i) => (
-            <div key={i} className="flex flex-col bg-background border border-surface-dim p-xl rounded-2xl hover:border-outline hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300 relative group overflow-hidden">
-              {/* Decorative quote mark */}
-              <span className="absolute -top-2 -right-4 text-[120px] text-surface-dim/40 font-serif leading-none rotate-12 group-hover:text-primary group-hover:opacity-10 transition-colors pointer-events-none">"</span>
-              
-              <div className="flex justify-between items-start mb-lg relative z-10">
-                 <div className="flex items-center gap-md">
+          <div className="flex justify-center mb-2xl">
+            <div className="bg-surface border border-surface-dim p-lg rounded-full flex items-center gap-md shadow-sm">
+              <div className="flex gap-1">
+                {[...Array(5)].map((_, i) => (
+                  <span key={i} className="material-symbols-outlined text-accent" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+                ))}
+              </div>
+              <span className="font-headline-sm text-on-surface">4.9/5 Average Rating</span>
+              <span className="text-on-surface-variant text-body-sm">(140+ Reviews)</span>
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-xl w-full">
+            {TESTIMONIALS.map((testimonial, i) => (
+              <div key={i} className="flex flex-col bg-background border border-surface-dim p-xl rounded-2xl hover:border-outline hover:shadow-2xl hover:shadow-primary/5 hover:-translate-y-1 transition-all duration-300 relative group overflow-hidden">
+                {/* Decorative quote mark */}
+                <span className="absolute -top-2 -right-4 text-[120px] text-surface-dim/40 font-serif leading-none rotate-12 group-hover:text-primary group-hover:opacity-10 transition-colors pointer-events-none">"</span>
+
+                <div className="flex justify-between items-start mb-lg relative z-10">
+                  <div className="flex items-center gap-md">
                     <div className="w-12 h-12 rounded-full bg-primary/10 text-primary flex items-center justify-center font-headline-sm font-semibold shadow-inner shrink-0">
-                       {testimonial.name.charAt(0)}
+                      {testimonial.name.charAt(0)}
                     </div>
                     <div>
                       <p className="font-headline-sm text-on-surface">{testimonial.name}</p>
                       <p className="text-label-sm text-on-surface-variant uppercase tracking-wider">{testimonial.location}</p>
                     </div>
-                 </div>
-                 <div className="flex items-center bg-surface-container px-2 py-1 rounded-full border border-surface-dim shadow-sm shrink-0">
-                  <span className="material-symbols-outlined text-accent text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
-                  <span className="text-label-sm text-on-surface ml-1 font-medium">{testimonial.rating}.0</span>
-                 </div>
+                  </div>
+                  <div className="flex items-center bg-surface-container px-2 py-1 rounded-full border border-surface-dim shadow-sm shrink-0">
+                    <span className="material-symbols-outlined text-accent text-sm" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
+                    <span className="text-label-sm text-on-surface ml-1 font-medium">{testimonial.rating}.0</span>
+                  </div>
+                </div>
+
+                <p className="text-body-lg text-on-surface-variant leading-relaxed mb-lg relative z-10 italic flex-grow">
+                  "{testimonial.text}"
+                </p>
+
+                <div className="border-t border-surface-dim pt-md relative z-10 mt-auto">
+                  <span className="text-primary font-label-md text-label-md uppercase tracking-wider flex items-center gap-xs">
+                    <span className="material-symbols-outlined text-[16px]">school</span>
+                    {testimonial.service}
+                  </span>
+                </div>
               </div>
+            ))}
+          </div>
 
-              <p className="text-body-lg text-on-surface-variant leading-relaxed mb-lg relative z-10 italic flex-grow">
-                "{testimonial.text}"
-              </p>
-
-              <div className="border-t border-surface-dim pt-md relative z-10 mt-auto">
-                <span className="text-primary font-label-md text-label-md uppercase tracking-wider flex items-center gap-xs">
-                   <span className="material-symbols-outlined text-[16px]">school</span>
-                   {testimonial.service}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="bg-surface border border-surface-dim p-2xl rounded-lg text-center max-w-4xl mx-auto">
-          <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">Have You Worked With Us?</h2>
-          <p className="text-body-lg text-on-surface-variant mb-xl">
-            We value your feedback. Share your experience with the Azone Projects team.
-          </p>
-          <a 
-            href="https://wa.me/971556230065?text=Hi, I would like to leave a review for Azone Projects"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-2xl py-lg rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md"
-          >
-            <span className="material-symbols-outlined">rate_review</span>
-            Write a Review via WhatsApp
-          </a>
-        </div>
+          <div className="bg-surface border border-surface-dim p-2xl rounded-lg text-center max-w-4xl mx-auto">
+            <h2 className="font-headline-lg text-headline-lg text-on-surface mb-md">Have You Worked With Us?</h2>
+            <p className="text-body-lg text-on-surface-variant mb-xl">
+              We value your feedback. Share your experience with the Azone Projects team.
+            </p>
+            <a
+              href="https://wa.me/971556230065?text=Hi, I would like to leave a review for Azone Projects"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-2xl py-lg rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md"
+            >
+              <span className="material-symbols-outlined">rate_review</span>
+              Write a Review via WhatsApp
+            </a>
+          </div>
         </div>
       </main>
     </>

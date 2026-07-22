@@ -7,7 +7,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
   // Find related services objects
   const relatedServices = SERVICE_PAGES.filter(s => service.relatedSlugs.includes(s.slug));
 
-  const pageUrl = `https://azoneprojects.com/services/${service.slug}`;
+  const pageUrl = `https://assignmentzone.ae/services/${service.slug}`;
 
   return (
     <>
@@ -15,22 +15,22 @@ export default function ServicePage({ service }: { service: ServiceData }) {
         <title>{service.metaTitle}</title>
         <meta name="description" content={service.metaDesc} />
         <link rel="canonical" href={pageUrl} />
-        
+
         {/* Open Graph */}
         <meta property="og:title" content={service.metaTitle} />
         <meta property="og:description" content={service.metaDesc} />
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="article" />
-        
+
         {/* Task 4A: LocalBusiness Schema */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "LocalBusiness",
             "name": "Azone Projects FZC",
-            "url": "https://azoneprojects.com",
-            "logo": "https://azoneprojects.com/assets/img/Azok.png",
-            "image": "https://azoneprojects.com/assets/img/Azok.png",
+            "url": "https://assignmentzone.ae",
+            "logo": "https://assignmentzone.ae/assets/img/Azok.png",
+            "image": "https://assignmentzone.ae/assets/img/Azok.png",
             "description": service.metaDesc,
             "telephone": "+971556230065",
             "email": "projects.azone@gmail.com",
@@ -88,8 +88,8 @@ export default function ServicePage({ service }: { service: ServiceData }) {
             "@context": "https://schema.org",
             "@type": "BreadcrumbList",
             "itemListElement": [
-              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://azoneprojects.com/" },
-              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://azoneprojects.com/#services" },
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://assignmentzone.ae/" },
+              { "@type": "ListItem", "position": 2, "name": "Services", "item": "https://assignmentzone.ae/#services" },
               { "@type": "ListItem", "position": 3, "name": service.title, "item": pageUrl }
             ]
           })}
@@ -99,7 +99,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
 
       <main className="pt-2xl pb-3xl bg-background">
         <div className="section-container px-margin-mobile md:px-margin-desktop">
-          
+
           {/* Breadcrumbs */}
           <nav className="flex text-sm text-on-surface-variant mb-xl font-label-md">
             <Link to="/" className="hover:text-primary transition-colors">Home</Link>
@@ -115,7 +115,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
               <h1 className="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface mb-md">
                 {service.h1}
               </h1>
-              
+
               <p className="text-body-lg text-on-surface-variant leading-relaxed mb-2xl">
                 {service.intro}
               </p>
@@ -175,7 +175,7 @@ export default function ServicePage({ service }: { service: ServiceData }) {
                   <p className="text-body-md text-on-surface-variant mb-lg">
                     Our team in UAE is available 24/7. Get a free quote instantly.
                   </p>
-                  <a 
+                  <a
                     href={`https://wa.me/971556230065?text=${encodeURIComponent(service.whatsappText)}`}
                     target="_blank"
                     rel="noopener noreferrer"
@@ -193,8 +193,8 @@ export default function ServicePage({ service }: { service: ServiceData }) {
                   </h3>
                   <div className="flex flex-col gap-md">
                     {relatedServices.map(related => (
-                      <Link 
-                        key={related.slug} 
+                      <Link
+                        key={related.slug}
                         to={`/services/${related.slug}`}
                         className="text-body-md text-on-surface-variant hover:text-primary transition-colors flex items-center gap-sm"
                       >

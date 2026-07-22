@@ -84,24 +84,6 @@ function App() {
         </section>
 
         {/* ═══════════════════════════════════════════════
-            TRUST BAR
-        ═══════════════════════════════════════════════ */}
-        <section className="bg-surface-container py-lg border-b border-surface-dim">
-          <div className="section-container px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row items-center justify-between gap-md">
-            <p className="font-label-md text-label-md text-on-surface-variant uppercase tracking-widest whitespace-nowrap">
-              Trusted By
-            </p>
-            <div className="w-full h-[1px] bg-outline-variant hidden md:block" />
-            <div className="flex flex-wrap justify-center md:justify-end items-center gap-md md:gap-xl opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-              <span className="font-headline-sm font-medium text-on-surface">DUBAI TECH</span>
-              <span className="font-headline-sm font-medium text-on-surface">UAE UNIVERSITY</span>
-              <span className="font-headline-sm font-medium text-on-surface">KHALIFA EDU</span>
-              <span className="font-headline-sm font-medium text-on-surface">AD GLOBAL</span>
-            </div>
-          </div>
-        </section>
-
-        {/* ═══════════════════════════════════════════════
             SERVICES
         ═══════════════════════════════════════════════ */}
         <section className="py-2xl px-margin-mobile md:px-margin-desktop bg-background" id="services">
@@ -272,7 +254,7 @@ function App() {
                   <span className="material-symbols-outlined text-on-surface font-light">mail</span>
                   <div>
                     <p className="font-label-md text-label-md text-on-surface uppercase tracking-wider mb-xs">Direct Inquiry</p>
-                    <p className="text-on-surface-variant font-body-md text-body-md">hello@azoneprojects.com</p>
+                    <p className="text-on-surface-variant font-body-md text-body-md">projects.azone@gmail.com</p>
                   </div>
                 </div>
               </div>
@@ -282,16 +264,16 @@ function App() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-lg">
                   <div>
                     <label className="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-sm">Full Name</label>
-                    <input required value={formData.name} onChange={e => setFormData({...formData, name: e.target.value})} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none" placeholder="Enter your name" type="text" />
+                    <input required value={formData.name} onChange={e => setFormData({ ...formData, name: e.target.value })} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none" placeholder="Enter your name" type="text" />
                   </div>
                   <div>
                     <label className="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-sm">Email Address</label>
-                    <input required value={formData.email} onChange={e => setFormData({...formData, email: e.target.value})} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none" placeholder="Enter your email" type="email" />
+                    <input required value={formData.email} onChange={e => setFormData({ ...formData, email: e.target.value })} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none" placeholder="Enter your email" type="email" />
                   </div>
                 </div>
                 <div>
                   <label className="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-sm">Area of Interest</label>
-                  <select value={formData.subject} onChange={e => setFormData({...formData, subject: e.target.value})} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none appearance-none">
+                  <select value={formData.subject} onChange={e => setFormData({ ...formData, subject: e.target.value })} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none appearance-none">
                     <option>Enterprise Web Development</option>
                     <option>Strategic SEO Optimization</option>
                     <option>Institutional Academic Support</option>
@@ -300,9 +282,9 @@ function App() {
                 </div>
                 <div>
                   <label className="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-sm">Project Details</label>
-                  <textarea required value={formData.message} onChange={e => setFormData({...formData, message: e.target.value})} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none resize-none" placeholder="Describe your objectives..." rows={4} />
+                  <textarea required value={formData.message} onChange={e => setFormData({ ...formData, message: e.target.value })} className="w-full bg-surface-container border-0 border-b border-outline-variant p-sm focus:border-primary focus:ring-0 outline-none transition-colors font-body-md rounded-none resize-none" placeholder="Describe your objectives..." rows={4} />
                 </div>
-                
+
                 {submitStatus === 'success' && (
                   <div className="p-sm bg-[#e8f5e9] text-[#2e7d32] rounded border border-[#a5d6a7] font-body-md">
                     Thank you! Your inquiry has been sent successfully. We will get back to you within 24 hours.

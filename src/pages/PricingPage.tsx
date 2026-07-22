@@ -30,7 +30,7 @@ interface PricingData {
 }
 
 export default function PricingPage() {
-  const pageUrl = 'https://azoneprojects.com/pricing';
+  const pageUrl = 'https://assignmentzone.ae/pricing';
   const [data, setData] = useState<PricingData | null>(null);
 
   useEffect(() => {
@@ -61,7 +61,7 @@ export default function PricingPage() {
 
       <main className="pt-2xl pb-3xl bg-background min-h-screen">
         <div className="section-container px-margin-mobile md:px-margin-desktop">
-          
+
           <nav className="flex text-sm text-on-surface-variant mb-xl font-label-md">
             <Link to="/" className="hover:text-primary transition-colors">Home</Link>
             <span className="mx-2">&gt;</span>
@@ -72,64 +72,64 @@ export default function PricingPage() {
             <span className="inline-flex items-center gap-xs text-on-surface-variant font-label-md tracking-widest uppercase mb-md">
               <span className="w-8 h-[1px] bg-outline" />
               Transparent Rates
-            <span className="w-8 h-[1px] bg-outline" />
-          </span>
-          <h2 className="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface mb-md">
-            {data.meta.h1}
-          </h2>
-          <p className="text-body-lg text-on-surface-variant leading-relaxed">
-            {data.meta.subtitle}
-          </p>
-        </div>
-
-        <div className="max-w-4xl mx-auto bg-surface border border-surface-dim rounded-lg overflow-hidden shadow-sm mb-2xl animate-fade-in">
-          <div className="overflow-x-auto">
-            <table className="w-full text-left border-collapse">
-              <thead>
-                <tr className="bg-surface-container border-b border-surface-dim">
-                  <th className="py-md px-lg font-headline-sm text-on-surface">Academic Level</th>
-                  <th className="py-md px-lg font-headline-sm text-on-surface">Service Type</th>
-                  <th className="py-md px-lg font-headline-sm text-on-surface text-right">Starting Price</th>
-                </tr>
-              </thead>
-              <tbody className="divide-y divide-surface-dim">
-                {data.tiers.map((row, i) => (
-                  <tr key={i} className="hover:bg-surface-container/50 transition-colors">
-                    <td className="py-md px-lg text-body-md text-on-surface-variant">{row.level}</td>
-                    <td className="py-md px-lg text-body-md text-on-surface font-medium">{row.service}</td>
-                    <td className="py-md px-lg text-body-md text-primary font-semibold text-right whitespace-nowrap">{row.price}</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-          <div className="p-md bg-surface-container border-t border-surface-dim text-center">
-            <p className="text-label-sm text-on-surface-variant uppercase tracking-wider">
-              {data.meta.disclaimer}
+              <span className="w-8 h-[1px] bg-outline" />
+            </span>
+            <h2 className="font-headline-xl text-headline-xl-mobile md:text-headline-xl text-on-surface mb-md">
+              {data.meta.h1}
+            </h2>
+            <p className="text-body-lg text-on-surface-variant leading-relaxed">
+              {data.meta.subtitle}
             </p>
           </div>
-        </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-lg mb-2xl animate-fade-in" style={{ animationDelay: '0.1s' }}>
-          {data.freeFeatures.map((feature, i) => (
-            <div key={i} className="bg-surface border border-surface-dim p-lg rounded-lg text-center flex flex-col items-center gap-sm shadow-sm hover:shadow-md transition-shadow">
-              <span className="material-symbols-outlined text-primary text-3xl">{feature.icon}</span>
-              <span className="font-headline-sm text-on-surface">{feature.label}</span>
+          <div className="max-w-4xl mx-auto bg-surface border border-surface-dim rounded-lg overflow-hidden shadow-sm mb-2xl animate-fade-in">
+            <div className="overflow-x-auto">
+              <table className="w-full text-left border-collapse">
+                <thead>
+                  <tr className="bg-surface-container border-b border-surface-dim">
+                    <th className="py-md px-lg font-headline-sm text-on-surface">Academic Level</th>
+                    <th className="py-md px-lg font-headline-sm text-on-surface">Service Type</th>
+                    <th className="py-md px-lg font-headline-sm text-on-surface text-right">Starting Price</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-surface-dim">
+                  {data.tiers.map((row, i) => (
+                    <tr key={i} className="hover:bg-surface-container/50 transition-colors">
+                      <td className="py-md px-lg text-body-md text-on-surface-variant">{row.level}</td>
+                      <td className="py-md px-lg text-body-md text-on-surface font-medium">{row.service}</td>
+                      <td className="py-md px-lg text-body-md text-primary font-semibold text-right whitespace-nowrap">{row.price}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
-          ))}
-        </div>
+            <div className="p-md bg-surface-container border-t border-surface-dim text-center">
+              <p className="text-label-sm text-on-surface-variant uppercase tracking-wider">
+                {data.meta.disclaimer}
+              </p>
+            </div>
+          </div>
 
-        <div className="text-center mt-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          <a 
-            href={`https://wa.me/971556230065?text=${encodeURIComponent(data.meta.whatsappText)}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-2xl py-lg rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md transform hover:-translate-y-1"
-          >
-            <span className="material-symbols-outlined">request_quote</span>
-            {data.meta.ctaLabel}
-          </a>
-        </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-lg mb-2xl animate-fade-in" style={{ animationDelay: '0.1s' }}>
+            {data.freeFeatures.map((feature, i) => (
+              <div key={i} className="bg-surface border border-surface-dim p-lg rounded-lg text-center flex flex-col items-center gap-sm shadow-sm hover:shadow-md transition-shadow">
+                <span className="material-symbols-outlined text-primary text-3xl">{feature.icon}</span>
+                <span className="font-headline-sm text-on-surface">{feature.label}</span>
+              </div>
+            ))}
+          </div>
+
+          <div className="text-center mt-xl animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <a
+              href={`https://wa.me/971556230065?text=${encodeURIComponent(data.meta.whatsappText)}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-sm bg-primary text-on-primary px-2xl py-lg rounded font-label-md uppercase tracking-wider hover:bg-secondary transition-all shadow-md transform hover:-translate-y-1"
+            >
+              <span className="material-symbols-outlined">request_quote</span>
+              {data.meta.ctaLabel}
+            </a>
+          </div>
 
         </div>
       </main>

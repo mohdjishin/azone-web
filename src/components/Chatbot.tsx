@@ -113,7 +113,7 @@ const Chatbot: React.FC = () => {
 
     const strippedNumber = phoneNumber.replace(/\D/g, '');
     const validationRules = COUNTRY_DATA[countryCode];
-    
+
     if (strippedNumber.length < validationRules.minLength || strippedNumber.length > validationRules.maxLength) {
       setPhoneError(`Please enter a valid ${validationRules.minLength}-digit number for this country.`);
       return;
@@ -123,7 +123,7 @@ const Chatbot: React.FC = () => {
     const userMsg: Message = { id: Date.now(), text: fullNumber, sender: 'user' };
     setMessages((prev) => [...prev, userMsg]);
     setIsWaitingForNumber(false);
-    
+
     const submittedNumber = fullNumber;
     setPhoneNumber('');
     setPhoneError('');
@@ -149,7 +149,7 @@ const Chatbot: React.FC = () => {
         }]);
       }, 500);
     } catch (error) {
-       setTimeout(() => {
+      setTimeout(() => {
         setMessages((prev) => [...prev, {
           id: Date.now(),
           text: 'There was a network issue. Please try again or use WhatsApp.',
@@ -167,9 +167,8 @@ const Chatbot: React.FC = () => {
 
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className={`w-16 h-16 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 active:scale-95 ${
-            isOpen ? 'bg-surface border border-surface-dim text-on-surface' : 'bg-primary hover:bg-secondary text-on-primary'
-          }`}
+          className={`w-16 h-16 rounded-full shadow-2xl flex items-center justify-center transition-all duration-300 transform hover:scale-110 active:scale-95 ${isOpen ? 'bg-surface border border-surface-dim text-on-surface' : 'bg-primary hover:bg-secondary text-on-primary'
+            }`}
           aria-label="Toggle Chatbot"
         >
           <span className={`material-symbols-outlined text-3xl transition-transform duration-300 ${isOpen ? 'rotate-90' : 'rotate-0'}`}>
@@ -179,10 +178,9 @@ const Chatbot: React.FC = () => {
       </div>
 
       {/* Chat Window */}
-      <div 
-        className={`fixed bottom-28 right-6 w-[90vw] max-w-[400px] h-[600px] max-h-[80vh] bg-surface-container border border-surface-dim rounded-2xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.3)] flex flex-col overflow-hidden z-50 transition-all duration-300 origin-bottom-right ${
-          isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'
-        }`}
+      <div
+        className={`fixed bottom-28 right-6 w-[90vw] max-w-[400px] h-[600px] max-h-[80vh] bg-surface-container border border-surface-dim rounded-2xl shadow-[0_20px_50px_-12px_rgba(0,0,0,0.3)] flex flex-col overflow-hidden z-50 transition-all duration-300 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'
+          }`}
       >
         {/* Header */}
         <div className="bg-primary p-lg flex items-center justify-between shadow-md relative overflow-hidden">
@@ -209,20 +207,18 @@ const Chatbot: React.FC = () => {
           {messages.map((msg) => (
             <div
               key={msg.id}
-              className={`flex flex-col max-w-[85%] animate-fade-in ${
-                msg.sender === 'user' ? 'self-end items-end' : 'self-start items-start'
-              }`}
+              className={`flex flex-col max-w-[85%] animate-fade-in ${msg.sender === 'user' ? 'self-end items-end' : 'self-start items-start'
+                }`}
             >
               <div
-                className={`px-lg py-md text-sm md:text-base leading-relaxed shadow-sm ${
-                  msg.sender === 'user'
-                    ? 'bg-accent text-on-primary rounded-2xl rounded-br-sm'
-                    : 'bg-surface-container text-on-surface rounded-2xl rounded-bl-sm border border-outline-variant'
-                }`}
+                className={`px-lg py-md text-sm md:text-base leading-relaxed shadow-sm ${msg.sender === 'user'
+                  ? 'bg-accent text-on-primary rounded-2xl rounded-br-sm'
+                  : 'bg-surface-container text-on-surface rounded-2xl rounded-bl-sm border border-outline-variant'
+                  }`}
               >
                 {msg.text}
               </div>
-              
+
               {msg.isContact && (
                 <div className="flex flex-col gap-sm mt-sm w-full animate-fade-in">
                   <a
@@ -261,17 +257,17 @@ const Chatbot: React.FC = () => {
           ))}
           <div ref={messagesEndRef} />
         </div>
-        
+
         {/* Input Area */}
         {isWaitingForNumber && (
           <div className="bg-surface border-t border-surface-dim p-lg shadow-[0_-10px_40px_-15px_rgba(0,0,0,0.05)] animate-fade-in">
             <form onSubmit={handleNumberSubmit} className="flex flex-col gap-md">
               <p className="text-xs font-bold text-on-surface-variant uppercase tracking-widest text-center">Secure Callback Request</p>
-              
+
               <div className="flex flex-col gap-xs relative">
                 <div className="flex items-stretch border-2 border-outline-variant rounded-xl overflow-hidden focus-within:border-accent focus-within:ring-4 focus-within:ring-accent/10 transition-all bg-surface-container">
-                  <select 
-                    value={countryCode} 
+                  <select
+                    value={countryCode}
                     onChange={(e) => {
                       setCountryCode(e.target.value);
                       setPhoneError('');

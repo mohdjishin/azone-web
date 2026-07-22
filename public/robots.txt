@@ -2,9 +2,9 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 Disallow: /assets/
-Sitemap: https://azoneprojects.com/sitemap.xml
+Sitemap: https://assignmentzone.ae/sitemap.xml
 
 # LLM Indexing Files
 # For AI assistants and large language models (GPT, Claude, Grok, Gemini, etc.)
-LLMs: https://azoneprojects.com/llms.txt
-LLMs-Full: https://azoneprojects.com/llms-full.txt
+LLMs: https://assignmentzone.ae/llms.txt
+LLMs-Full: https://assignmentzone.ae/llms-full.txt
